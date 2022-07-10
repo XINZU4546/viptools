@@ -20,14 +20,16 @@ for i in range(2):
 		time.sleep (3) 
 		
 os.system("clear") 
-print("\033[95m
+print(""
 
 ██   ██     ██    ██ ██ ██████  
  ██ ██      ██    ██ ██ ██   ██ 
   ███         ██    ██ ██ ██████  
  ██ ██       ██  ██  ██ ██      
-██   ██       ████   ██ ██      
-                                                              \033[95m") 
+██   ██       ████   ██ ██
+                                                   "") 
+
+
 
 print("\033[95m UDP/TCP FLOOD
 ip = str(input(" Host/Ip : ")
